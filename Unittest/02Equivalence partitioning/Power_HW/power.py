@@ -1,3 +1,8 @@
-# class Power:
-#     def powerNumber(self, base, exp)->int:
-#         return base**exp
+class Power:
+    def power(self, base, exp):
+        result = 1
+        if exp < 0:
+            return -1
+        for i in range(exp):
+            result = result * base
+        return result
