@@ -27,6 +27,5 @@ class TestPower(unittest.TestCase):
         result = self.pow.power("A", 2) #TypeError: '<' not supported between instances of 'str' and 'int'
         self.assertEqual(-1,result)
 
-
 if __name__ == "__main__":
     unittest.main()
