@@ -1,7 +1,7 @@
 import unittest
 from trigangle import Trigangle
-
-class TestGeometry(unittest.TestCase):
+#i.	Condition coverage Cover 100% 
+class TestTrigangle(unittest.TestCase):
 
     def setUp(self) -> None:
         self.trigangle = Trigangle()

@@ -1,6 +1,6 @@
 import unittest
 from trigangle import Trigangle
-
+#i.	Condition coverage Cover 100% 
 class TestTrigangle(unittest.TestCase):
 
     def setUp(self) -> None:

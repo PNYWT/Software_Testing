@@ -28,5 +28,5 @@ class Trigangle:
             return "Isosceles"
         elif type == 3 and (b + c) > a :
             return "Isosceles"
-
         return "Invalid"
+    
